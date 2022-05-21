@@ -6,7 +6,7 @@ function solve() {
 
    function onClick() {
       for (const row of rowsElement) {
-         row.classList.remove('select'); // чрез класа добавяме или премахваме стиловете на дадените HTML елементи
+         row.classList.remove('select');
 
          if(inputElement.value !== '' && row.innerHTML.includes(inputElement.value)){
             row.className = 'select';
