@@ -13,9 +13,9 @@ function printCount(count){
 
 printCount(10);
 
-// function expression -> define a function, which is saved in a variable
+// function expression
 
-let countDown = function(number = 10){ // default parameter
+let countDown = function(number = 10){ 
     for(let i = number; i > 0; i--){
         console.log(i);
     }
@@ -40,5 +40,5 @@ console.log(result);
 
 // *******************************************
 firstName = 'Lubak';
-console.log(firstName.toUpperCase()); // built-in method
+console.log(firstName.toUpperCase()); 
 
