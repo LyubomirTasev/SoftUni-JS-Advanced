@@ -1,5 +1,5 @@
 function argumentInfo(){
-    let data = {}; // dictionary
+    let data = {}; 
 
     Array.from(arguments).forEach((line) => {
         let type = typeof line;
@@ -19,10 +19,6 @@ function argumentInfo(){
     // })
     .forEach((key) => console.log(`${key} = ${data[key]}`));
 }
-
-
-// argumentInfo({animal: 'cat'}, 42, function () { console.log('Hello world!'); });
-// argumentInfo({ name: 'bob'}, 3.333, 9.999);
 
 
 function solve(...input){
