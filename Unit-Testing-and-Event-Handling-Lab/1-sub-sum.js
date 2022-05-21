@@ -3,11 +3,11 @@ function solve(numbers, start, end) {
         return NaN;
     }
 
-    let startIndex = Math.max(start, 0); // взимаме максималната стойност измежду start и 0
-    let endIndex = Math.min(end, numbers.length - 1); // взимаме минималната стойност измежду end и последния елемент от масива
-                          //
-                         // 
-                        //  
+    let startIndex = Math.max(start, 0);
+    let endIndex = Math.min(end, numbers.length - 1);
+            //               ||
+           //                ||
+          //                 ||
                // if(start < 0) {
                //     start = 0;
                // }
