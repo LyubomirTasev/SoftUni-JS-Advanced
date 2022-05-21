@@ -5,7 +5,7 @@ function solve(array){
     let obj = {};
 
     for(let i = 0; i < result.length; i++){
-        //current = result[i].split(' : '); // сплитваме реда
+        //current = result[i].split(' : '); 
 
         // Решаване с обект
         let[product, price] = result[i].split(' : ');
